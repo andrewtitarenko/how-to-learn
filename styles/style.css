@@ -30,7 +30,7 @@ body{
 }
 
 .logo_place_header{
-  background-image: url(/images/logo_place_header.svg);
+  background-image: url(../images/logo_place_header.svg);
   left: 64px;
   top: 30px;
   position:absolute;
@@ -70,7 +70,7 @@ body{
   right: 0;
   bottom: 0;
   margin-right: 0;
-  background-image: url(/images/header-image.png);
+  background-image: url(../images/header-image.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -205,7 +205,7 @@ body{
 
 
 .feynman {
-  background-image: url(/images/feynman.png);
+  background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-size: 867px 637px;
   background-position: bottom left;
@@ -264,7 +264,7 @@ body{
   z-index: 1;
 }
 .kaufman__triangle{
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   background-position: right top;
   background-repeat: no-repeat;
   width: 877px;
@@ -322,6 +322,7 @@ body{
 }
 .footer__author {
   margin: 0;
+  padding: 0;
   margin-top: 18px;
   margin-bottom: 18px;
   font-size: 18px;
@@ -332,6 +333,8 @@ body{
 
 .footer__column_content_info{
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 .footer__column_content_social{
   flex-flow: column;
@@ -370,7 +373,7 @@ body{
 
 }
 .logo_place_footer{
-  background-image: url(/images/logo_place_footer.svg);
+  background-image: url(../images/logo_place_footer.svg);
   margin: 0;
   padding: 0;
 }
