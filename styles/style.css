@@ -162,7 +162,7 @@ body{
   margin-top: 20px;
   line-height: 34px;
   text-align: center;
-  font-weight: 24px;
+  font-size: 24px;
   font-weight: normal;
   padding: 0;
 }
@@ -368,8 +368,8 @@ body{
   font-weight: normal;
   line-height: 30px;
   text-decoration: none;
-  position: flex;
-  align-items:flex-start;
+  display: flex;
+  align-items:baseline;
 
 }
 .logo_place_footer{
