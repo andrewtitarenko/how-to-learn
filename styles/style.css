@@ -8,10 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-body{
-  margin: 0;
 
-}
 .header {
   height: 100vh;
   min-height: 600px;
@@ -39,7 +36,7 @@ body{
 
 .header__title {
   align-self: center;
-  width: 730px;
+  max-width: 730px;
   font-size: 102px;
   font-weight: 700;
   line-height: 96px;
@@ -49,7 +46,8 @@ body{
 }
 
 .header__subtitle{
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   left: 64px;
   margin: 0;
   bottom: 30px;
@@ -62,6 +60,7 @@ body{
 
 .header__link{
   text-decoration: none;
+  color: #2f80ed;
 }
 .header__main-ilustration{
   width: 765px;
@@ -90,10 +89,10 @@ body{
 
 
 .description{
+  padding: 0;
+  padding-top: 100px;
   justify-content: center;
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 .two-columns{
   width: 80%;
@@ -109,7 +108,8 @@ body{
 }
 
 .two-columns__brief{
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -142,6 +142,8 @@ body{
 .digits{
   align-items: center;
   flex-flow: column;
+  padding: 0;
+  padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
 }
@@ -152,7 +154,6 @@ body{
   font-weight: 700;
   line-height: 1.15;
   margin: 0 0;
-  margin-top: 100px;
   text-align: center;
   padding: 0;
 }
@@ -169,16 +170,18 @@ body{
 .table {
   display: flex;
   padding-left: 0;
+  margin-bottom: 0;
   width: 1100px;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
-  .table__cell {
-    margin-top: 60px;
-    width: 250px;
-    list-style-type: none;
-    flex-flow: column;
-    display: flex;
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+  list-style-type: none;
+  flex-flow: column;
+  display: flex;
 }
 .table__heading{
   font-size: 24px;
@@ -221,7 +224,8 @@ body{
   font-size: 120px;
   font-weight: 700;
   line-height: 1.15;
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   text-align: center;
   margin: 0;
   margin-top: 100px;
@@ -319,7 +323,9 @@ body{
   flex-basis: 711px;
   display: flex;
   justify-content: space-between;
+  /* В брифе указана мин. высота только для блока footer, отдельно для колонок высоты нет. Куратор сказал что колонка по высоте должна занимать всю высоту, что она и делает  */
 }
+
 .footer__author {
   margin: 0;
   padding: 0;
@@ -369,7 +375,7 @@ body{
   line-height: 30px;
   text-decoration: none;
   display: flex;
-  align-items:baseline;
+  align-items:center;
 
 }
 .logo_place_footer{
