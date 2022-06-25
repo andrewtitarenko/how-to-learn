@@ -1,0 +1,11 @@
+.techniques{
+  margin: 0 auto 0 auto;
+  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  border: red solid;
+
+}

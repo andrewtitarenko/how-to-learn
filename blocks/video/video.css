@@ -1,0 +1,7 @@
+.video{
+  margin: 0;
+  padding: 0;
+  border: red solid;
+  display: flex;
+  flex-flow: column;
+}
