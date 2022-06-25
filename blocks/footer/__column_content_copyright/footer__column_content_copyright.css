@@ -1,0 +1,6 @@
+.footer__column_content_copyright{
+  flex-basis: 711px;
+  display: flex;
+  justify-content: space-between;
+  /* В брифе указана мин. высота только для блока footer, отдельно для колонок высоты нет. Куратор сказал что колонка по высоте должна занимать всю высоту, что она и делает  */
+}
